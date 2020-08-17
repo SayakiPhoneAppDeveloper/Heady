@@ -50,13 +50,12 @@ Xcode 11.6.1
   - User can add product to their cart
 
 ## Preview
-```bash
-<img src="ScreenShots/shop.png" title="Shop" hspace="30"/><img src="ScreenShots/sidemenu.png" title="Side menu"/>
 
-<img src="ScreenShots/categories.png" title="Categoried" hspace="30"/><img src="ScreenShots/productdetails.png" title="Product details"/>
+<img align="left" src="ScreenShots/shop.png" title="Shop" hspace="30"/><img align="right" src="ScreenShots/sidemenu.png" title="Side menu"/>
 
-<img src="ScreenShots/wishlist.png" title="Wishlist" hspace="30"/> <img src="ScreenShots/mycart.png" title="My cart"/>
-```
+<img align="left" src="ScreenShots/categories.png" title="Categoried" hspace="30"/><img align="right" src="ScreenShots/productdetails.png" title="Product details"/>
+
+<img align="left" src="ScreenShots/wishlist.png" title="Wishlist" hspace="30"/> <img align="right" src="ScreenShots/mycart.png" title="My cart"/>
 
 
 ## Contributing
