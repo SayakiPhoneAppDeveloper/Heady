@@ -1,7 +1,9 @@
 # Heady ​- ​Skill ​Assessment ​Test ​(SAT)
 
 ## Project name 
-
+```bash
+Heady
+```
 ## Language 
 ```bash
 Swift 5.1
@@ -51,11 +53,11 @@ Xcode 11.6.1
 
 ## Preview
 
-<img align="left" src="ScreenShots/shop.png" title="Shop" hspace="30"/><img align="right" src="ScreenShots/sidemenu.png" title="Side menu"/>
+<img src="ScreenShots/shop.png" title="Shop" hspace="30"/><img src="ScreenShots/sidemenu.png" title="Side menu"/>
 
-<img align="left" src="ScreenShots/categories.png" title="Categoried" hspace="30"/><img align="right" src="ScreenShots/productdetails.png" title="Product details"/>
+<img src="ScreenShots/categories.png" title="Categoried" hspace="30"/><img src="ScreenShots/productdetails.png" title="Product details"/>
 
-<img align="left" src="ScreenShots/wishlist.png" title="Wishlist" hspace="30"/> <img align="right" src="ScreenShots/mycart.png" title="My cart"/>
+<img src="ScreenShots/wishlist.png" title="Wishlist" hspace="30"/> <img src="ScreenShots/mycart.png" title="My cart"/>
 
 
 ## Contributing
