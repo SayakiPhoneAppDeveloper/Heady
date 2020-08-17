@@ -51,9 +51,11 @@ Xcode 11.6.1
 
 ## Preview
 
-<img src="ScreenShots/shop.png"/>                         <img src="ScreenShots/sidemenu.png"/>
-<img src="ScreenShots/categories.png"/>                        <img src="ScreenShots/productdetails.png"/>
-<img src="ScreenShots/wishlist.png"/>                         <img src="ScreenShots/mycart.png"/>
+<img src="ScreenShots/shop.png" title="Shop" hspace="20"/><img src="ScreenShots/sidemenu.png" title="Side menu"/>
+
+<img src="ScreenShots/categories.png" title="Categoried" hspace="20"/><img src="ScreenShots/productdetails.png" title="Product details"/>
+
+<img src="ScreenShots/wishlist.png" title="Wishlist" hspace="20"/> <img src="ScreenShots/mycart.png" title="My cart"/>
 
 
 ## Contributing
