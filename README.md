@@ -24,6 +24,7 @@ Xcode 11.6.1
 - `Object oriented programing(OOP), Protocol oriented programing, MVVM, SOLID, Singleton, Delegate, Callback `
 - `Thread safe core data using multiple context`
 - `JSON parsing using Codable`
+- `Local product search added`
 - `Category navigation storing data using custom stack`
 - `Fully customized tab bar`
 - `Simple side menu`
