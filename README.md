@@ -53,7 +53,7 @@ Xcode 11.6.1
 
 ## Preview
 
-| ![Alt name of image]<img src="ScreenShots/shop.png" title="Shop" hspace="30"/> | ![Alt name of image]<img src="ScreenShots/sidemenu.png" title="Side menu"/>|
+<kbd><img src="ScreenShots/shop.png" title="Shop" hspace="30"/><kbd><kbd><img src="ScreenShots/sidemenu.png" title="Side menu"/><kbd>
 
 <img src="ScreenShots/categories.png" title="Categoried" hspace="30"/><img src="ScreenShots/productdetails.png" title="Product details"/>
 
