@@ -15,15 +15,18 @@ Xcode 11.6.1
 
 - Database: `Core Data & UserDefaults`
 - Network: `NSURLSession`
-- No third party library is being used
+- `No third party library is being used`
 
 ## Highlights  
 
 - `Object oriented programing(OOP), Protocol oriented programing, MVVM, SOLID, Singleton, Delegate, Callback `
 - `Thread safe core data using multiple context`
+- `JSON parsing using Codable`
 - `Category navigation storing data using custom stack`
 - `Fully customized tab bar`
 - `Simple side menu`
+- `Custom spinner using core animation` 
+- `All extension classes (File name having +)`
 
 ## Features
 
