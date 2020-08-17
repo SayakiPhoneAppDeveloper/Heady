@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SATColorCollectionCell" id="gTV-IL-0wX" customClass="SATColorCollectionCell" customModule="SATeCommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cQ7-oU-YQi">
+                        <rect key="frame" x="15" y="15" width="20" height="20"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4am-pG-IWg">
+                                <rect key="frame" x="5" y="5" width="10" height="10"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="41B-Pj-6ug"/>
+                            <constraint firstAttribute="trailing" secondItem="4am-pG-IWg" secondAttribute="trailing" constant="5" id="PLD-YT-U7e"/>
+                            <constraint firstAttribute="width" secondItem="cQ7-oU-YQi" secondAttribute="height" multiplier="1:1" id="QeX-B7-Qe7"/>
+                            <constraint firstAttribute="bottom" secondItem="4am-pG-IWg" secondAttribute="bottom" constant="5" id="TVZ-0M-GZe"/>
+                            <constraint firstItem="4am-pG-IWg" firstAttribute="leading" secondItem="cQ7-oU-YQi" secondAttribute="leading" constant="5" id="izq-AJ-oRK"/>
+                            <constraint firstItem="4am-pG-IWg" firstAttribute="top" secondItem="cQ7-oU-YQi" secondAttribute="top" constant="5" id="n1V-Uw-fJ8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="cQ7-oU-YQi" firstAttribute="width" secondItem="cQ7-oU-YQi" secondAttribute="height" multiplier="1:1" id="4q4-ym-2xk"/>
+                <constraint firstItem="cQ7-oU-YQi" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="bgO-pY-hQl"/>
+                <constraint firstItem="cQ7-oU-YQi" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="iJp-oM-XBo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="imageViewSelection" destination="4am-pG-IWg" id="13F-Ic-zud"/>
+                <outlet property="viewColor" destination="cQ7-oU-YQi" id="MZ6-nQ-Vbx"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="142"/>
+        </collectionViewCell>
+    </objects>
+</document>

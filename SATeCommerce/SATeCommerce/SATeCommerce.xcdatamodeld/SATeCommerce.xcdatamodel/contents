@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="SATCategory" representedClassName="SATCategory" syncable="YES">
+        <attribute name="categoryId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="parentCategory" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SATCategory" inverseName="subCategories" inverseEntity="SATCategory"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SATProduct" inverseName="category" inverseEntity="SATProduct"/>
+        <relationship name="subCategories" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SATCategory" inverseName="parentCategory" inverseEntity="SATCategory"/>
+    </entity>
+    <entity name="SATMyCart" representedClassName="SATMyCart" syncable="YES">
+        <attribute name="itemCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="variantId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SATProduct" representedClassName="SATProduct" syncable="YES">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="orderCount" optional="YES" attributeType="Integer 64" usesScalarValueType="YES"/>
+        <attribute name="productId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="shareCount" optional="YES" attributeType="Integer 64" usesScalarValueType="YES"/>
+        <attribute name="viewCount" optional="YES" attributeType="Integer 64" usesScalarValueType="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SATCategory" inverseName="products" inverseEntity="SATCategory"/>
+        <relationship name="tax" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SATTax" inverseName="product" inverseEntity="SATTax"/>
+        <relationship name="variants" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SATVariant" inverseName="product" inverseEntity="SATVariant"/>
+    </entity>
+    <entity name="SATTax" representedClassName="SATTax" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SATProduct" inverseName="tax" inverseEntity="SATProduct"/>
+    </entity>
+    <entity name="SATVariant" representedClassName="SATVariant" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="size" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="variantId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SATProduct" inverseName="variants" inverseEntity="SATProduct"/>
+    </entity>
+    <elements>
+        <element name="SATMyCart" positionX="-27" positionY="108" width="128" height="88"/>
+        <element name="SATCategory" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="SATProduct" positionX="-45" positionY="45" width="128" height="178"/>
+        <element name="SATTax" positionX="-18" positionY="99" width="128" height="88"/>
+        <element name="SATVariant" positionX="-27" positionY="72" width="128" height="118"/>
+    </elements>
+</model>

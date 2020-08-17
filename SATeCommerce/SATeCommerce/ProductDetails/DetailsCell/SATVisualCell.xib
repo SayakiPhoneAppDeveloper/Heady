@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SATVisualCell" id="KGk-i7-Jjw" customClass="SATVisualCell" customModule="SATeCommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="353"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="353"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone" translatesAutoresizingMaskIntoConstraints="NO" id="jvS-6f-ZT6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="350"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="350" id="z7y-7j-o5J"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqG-Ag-iFv">
+                        <rect key="frame" x="15" y="270" width="30" height="30"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="vqG-Ag-iFv" secondAttribute="height" multiplier="1:1" id="e7m-oX-ePU"/>
+                            <constraint firstAttribute="width" constant="30" id="htg-9r-KOH"/>
+                        </constraints>
+                        <color key="tintColor" red="0.96475392579999997" green="0.09403269062312232" blue="0.12734739772713199" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <state key="normal" image="heart" catalog="system"/>
+                        <state key="selected" image="heart.fill" catalog="system"/>
+                        <connections>
+                            <action selector="wishAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3GW-51-QBA"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vqG-Ag-iFv" firstAttribute="bottom" secondItem="jvS-6f-ZT6" secondAttribute="bottom" constant="-50" id="47a-c9-0mM"/>
+                    <constraint firstItem="vqG-Ag-iFv" firstAttribute="leading" secondItem="jvS-6f-ZT6" secondAttribute="leading" constant="15" id="cN3-KD-fbm"/>
+                    <constraint firstItem="jvS-6f-ZT6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ecG-zX-Ncf"/>
+                    <constraint firstAttribute="bottom" secondItem="jvS-6f-ZT6" secondAttribute="bottom" id="fFh-wK-C6E"/>
+                    <constraint firstItem="jvS-6f-ZT6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fhb-X1-nx5"/>
+                    <constraint firstAttribute="trailing" secondItem="jvS-6f-ZT6" secondAttribute="trailing" id="zNB-oT-zX5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="wishButton" destination="vqG-Ag-iFv" id="fcg-Pe-yhh"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="245.42410714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <image name="iphone" width="1200" height="800"/>
+    </resources>
+</document>

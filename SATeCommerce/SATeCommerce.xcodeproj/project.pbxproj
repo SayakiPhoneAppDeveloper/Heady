@@ -1,0 +1,1078 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9606CBB824EA7F9E007B95AB /* SATSizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606CBB624EA7F9E007B95AB /* SATSizeCell.swift */; };
+		9606CBB924EA7F9E007B95AB /* SATSizeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9606CBB724EA7F9E007B95AB /* SATSizeCell.xib */; };
+		9606CBBC24EA90BC007B95AB /* SATSizeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606CBBA24EA90BC007B95AB /* SATSizeCollectionCell.swift */; };
+		9606CBBD24EA90BC007B95AB /* SATSizeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9606CBBB24EA90BC007B95AB /* SATSizeCollectionCell.xib */; };
+		9606CBC024EA9CD0007B95AB /* SATPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606CBBE24EA9CD0007B95AB /* SATPriceCell.swift */; };
+		9606CBC124EA9CD0007B95AB /* SATPriceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9606CBBF24EA9CD0007B95AB /* SATPriceCell.xib */; };
+		9606CBC324EAA5F9007B95AB /* SATVariantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9606CBC224EAA5F9007B95AB /* SATVariantViewModel.swift */; };
+		9617253924EAB65C004E2E2A /* UserDefaults+Heady.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617253824EAB65C004E2E2A /* UserDefaults+Heady.swift */; };
+		9617253F24EAD0AF004E2E2A /* SATTaxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617253E24EAD0AF004E2E2A /* SATTaxViewModel.swift */; };
+		9617254524EAE902004E2E2A /* SATCartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617254324EAE902004E2E2A /* SATCartCell.swift */; };
+		9617254624EAE902004E2E2A /* SATCartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9617254424EAE902004E2E2A /* SATCartCell.xib */; };
+		9617254924EAEECB004E2E2A /* SATMyCart+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617254724EAEECB004E2E2A /* SATMyCart+CoreDataClass.swift */; };
+		9617254A24EAEECB004E2E2A /* SATMyCart+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617254824EAEECB004E2E2A /* SATMyCart+CoreDataProperties.swift */; };
+		9617254C24EAF089004E2E2A /* SATCoreDataManager+Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617254B24EAF089004E2E2A /* SATCoreDataManager+Basic.swift */; };
+		9617254F24EAF3EC004E2E2A /* SATMyCartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617254E24EAF3EC004E2E2A /* SATMyCartViewModel.swift */; };
+		9617255224EB0485004E2E2A /* SATCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617255024EB0485004E2E2A /* SATCart.swift */; };
+		9617255324EB0485004E2E2A /* SATCart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9617255124EB0485004E2E2A /* SATCart.xib */; };
+		9653044D24E7A3FA0064BD1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653044C24E7A3FA0064BD1B /* AppDelegate.swift */; };
+		9653045724E7A3FA0064BD1B /* SATeCommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9653045524E7A3FA0064BD1B /* SATeCommerce.xcdatamodeld */; };
+		9653045924E7A3FC0064BD1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9653045824E7A3FC0064BD1B /* Assets.xcassets */; };
+		9653045C24E7A3FC0064BD1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9653045A24E7A3FC0064BD1B /* LaunchScreen.storyboard */; };
+		9653046724E7A3FC0064BD1B /* SATeCommerceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653046624E7A3FC0064BD1B /* SATeCommerceTests.swift */; };
+		9653047224E7A3FC0064BD1B /* SATeCommerceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653047124E7A3FC0064BD1B /* SATeCommerceUITests.swift */; };
+		9653048F24E7A5790064BD1B /* UIViewController+NavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653048624E7A5790064BD1B /* UIViewController+NavigationBarExtension.swift */; };
+		9653049024E7A5790064BD1B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653048724E7A5790064BD1B /* UIColor+Extension.swift */; };
+		9653049124E7A5790064BD1B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653048824E7A5790064BD1B /* UIImage+Extension.swift */; };
+		9653049224E7A5790064BD1B /* UIView+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653048924E7A5790064BD1B /* UIView+Transform.swift */; };
+		9653049924E7A67A0064BD1B /* SATDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653049724E7A67A0064BD1B /* SATDashboard.swift */; };
+		9653049D24E7A7F00064BD1B /* SSKTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653049C24E7A7F00064BD1B /* SSKTabBar.swift */; };
+		9653049F24E7A8410064BD1B /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653049E24E7A8410064BD1B /* CGFloat+Extension.swift */; };
+		965304A324E7AA2D0064BD1B /* SATDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965304A124E7AA2D0064BD1B /* SATDashboard.storyboard */; };
+		965304A624E7B4210064BD1B /* SATShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304A424E7B4210064BD1B /* SATShop.swift */; };
+		965304A724E7B4210064BD1B /* SATShop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965304A524E7B4210064BD1B /* SATShop.xib */; };
+		965304B224E7B4680064BD1B /* SATSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304B024E7B4680064BD1B /* SATSettings.swift */; };
+		965304B324E7B4680064BD1B /* SATSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965304B124E7B4680064BD1B /* SATSettings.xib */; };
+		965304B624E7B47F0064BD1B /* SATNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304B424E7B47F0064BD1B /* SATNotifications.swift */; };
+		965304B724E7B47F0064BD1B /* SATNotifications.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965304B524E7B47F0064BD1B /* SATNotifications.xib */; };
+		965304BA24E7B54D0064BD1B /* SATWishlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304B824E7B54D0064BD1B /* SATWishlist.swift */; };
+		965304BB24E7B54D0064BD1B /* SATWishlist.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965304B924E7B54D0064BD1B /* SATWishlist.xib */; };
+		965304BE24E7BE320064BD1B /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304BD24E7BE320064BD1B /* SideMenu.swift */; };
+		965304C924E7CC130064BD1B /* SSKSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304C724E7CC130064BD1B /* SSKSideMenuController.swift */; };
+		965304CA24E7CC130064BD1B /* SSKSideMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965304C824E7CC130064BD1B /* SSKSideMenuController.xib */; };
+		965304CD24E7EF870064BD1B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304CC24E7EF870064BD1B /* Category.swift */; };
+		965304CF24E7F1010064BD1B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304CE24E7F1010064BD1B /* Product.swift */; };
+		965304D124E7F1F70064BD1B /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304D024E7F1F70064BD1B /* Variant.swift */; };
+		965304D324E7F4D70064BD1B /* Tax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304D224E7F4D70064BD1B /* Tax.swift */; };
+		965304D524E7FEF30064BD1B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304D424E7FEF30064BD1B /* Response.swift */; };
+		965304D724E7FFB70064BD1B /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304D624E7FFB70064BD1B /* Ranking.swift */; };
+		965304D924E800240064BD1B /* ProductRanking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304D824E800240064BD1B /* ProductRanking.swift */; };
+		965304FD24E8525A0064BD1B /* SATCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304FC24E8525A0064BD1B /* SATCoreDataManager.swift */; };
+		9653050624E853D80064BD1B /* SATVariant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304FE24E853D80064BD1B /* SATVariant+CoreDataClass.swift */; };
+		9653050724E853D80064BD1B /* SATVariant+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965304FF24E853D80064BD1B /* SATVariant+CoreDataProperties.swift */; };
+		9653050824E853D80064BD1B /* SATProduct+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653050024E853D80064BD1B /* SATProduct+CoreDataClass.swift */; };
+		9653050924E853D80064BD1B /* SATProduct+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653050124E853D80064BD1B /* SATProduct+CoreDataProperties.swift */; };
+		9653050A24E853D80064BD1B /* SATTax+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653050224E853D80064BD1B /* SATTax+CoreDataClass.swift */; };
+		9653050B24E853D80064BD1B /* SATTax+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653050324E853D80064BD1B /* SATTax+CoreDataProperties.swift */; };
+		9653050C24E853D80064BD1B /* SATCategory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653050424E853D80064BD1B /* SATCategory+CoreDataClass.swift */; };
+		9653050D24E853D80064BD1B /* SATCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653050524E853D80064BD1B /* SATCategory+CoreDataProperties.swift */; };
+		9653050F24E856480064BD1B /* SATCoreDataManager+UpsertOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653050E24E856480064BD1B /* SATCoreDataManager+UpsertOperations.swift */; };
+		9653051124E859DE0064BD1B /* SATCoreDataConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653051024E859DE0064BD1B /* SATCoreDataConstant.swift */; };
+		9653051324E8747C0064BD1B /* SATCoreDataManager+FetchOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653051224E8747C0064BD1B /* SATCoreDataManager+FetchOperation.swift */; };
+		9653051524E87CC80064BD1B /* DateFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653051424E87CC80064BD1B /* DateFormatter+Extension.swift */; };
+		9653058724E88CBA0064BD1B /* SSKSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653058624E88CBA0064BD1B /* SSKSearchBar.swift */; };
+		9653058924E88CCC0064BD1B /* SSKSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653058824E88CCC0064BD1B /* SSKSearchBar.xib */; };
+		9653059124E899CE0064BD1B /* SATDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653058F24E899CE0064BD1B /* SATDataCollection.swift */; };
+		9653059224E899CE0064BD1B /* SATDataCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653059024E899CE0064BD1B /* SATDataCollection.xib */; };
+		9653059424E8A60C0064BD1B /* SATCategoryCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653059324E8A60C0064BD1B /* SATCategoryCollection.swift */; };
+		9653059624E8A6410064BD1B /* SATProductCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653059524E8A6410064BD1B /* SATProductCollection.swift */; };
+		9653059A24E8A7980064BD1B /* SATCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653059824E8A7980064BD1B /* SATCategoryCell.swift */; };
+		9653059B24E8A7980064BD1B /* SATCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653059924E8A7980064BD1B /* SATCategoryCell.xib */; };
+		965305A124E8AF0C0064BD1B /* SATProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653059F24E8AF0C0064BD1B /* SATProductCell.swift */; };
+		965305A224E8AF0C0064BD1B /* SATProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 965305A024E8AF0C0064BD1B /* SATProductCell.xib */; };
+		965305A624E8CE820064BD1B /* heady.json in Resources */ = {isa = PBXBuildFile; fileRef = 965305A524E8CE810064BD1B /* heady.json */; };
+		965305A924E8EDA10064BD1B /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965305A824E8EDA10064BD1B /* NetworkProtocol.swift */; };
+		965305AB24E93E3E0064BD1B /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965305AA24E93E3E0064BD1B /* UIView+Animation.swift */; };
+		965305AD24E961100064BD1B /* SATProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965305AC24E961100064BD1B /* SATProductViewModel.swift */; };
+		965305AF24E96D390064BD1B /* SATCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965305AE24E96D390064BD1B /* SATCategoryViewModel.swift */; };
+		965305B124E970DC0064BD1B /* SATTitleImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965305B024E970DC0064BD1B /* SATTitleImageViewModel.swift */; };
+		965305B424E987C50064BD1B /* Stakable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965305B324E987C50064BD1B /* Stakable.swift */; };
+		9653064F24E9A67B0064BD1B /* SATProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653064D24E9A67B0064BD1B /* SATProductDetails.swift */; };
+		9653065024E9A67B0064BD1B /* SATProductDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653064E24E9A67B0064BD1B /* SATProductDetails.xib */; };
+		9653065524E9A7850064BD1B /* SATVisualCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653065324E9A7850064BD1B /* SATVisualCell.swift */; };
+		9653065624E9A7850064BD1B /* SATVisualCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653065424E9A7850064BD1B /* SATVisualCell.xib */; };
+		9653065924E9A9A80064BD1B /* SATColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653065724E9A9A80064BD1B /* SATColorCell.swift */; };
+		9653065A24E9A9A80064BD1B /* SATColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653065824E9A9A80064BD1B /* SATColorCell.xib */; };
+		9653065E24E9AB8D0064BD1B /* SATColorCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9653065C24E9AB8D0064BD1B /* SATColorCollectionCell.swift */; };
+		9653065F24E9AB8D0064BD1B /* SATColorCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9653065D24E9AB8D0064BD1B /* SATColorCollectionCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9653046324E7A3FC0064BD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9653044124E7A3FA0064BD1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9653044824E7A3FA0064BD1B;
+			remoteInfo = SATeCommerce;
+		};
+		9653046E24E7A3FC0064BD1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9653044124E7A3FA0064BD1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9653044824E7A3FA0064BD1B;
+			remoteInfo = SATeCommerce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9606CBB624EA7F9E007B95AB /* SATSizeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATSizeCell.swift; sourceTree = "<group>"; };
+		9606CBB724EA7F9E007B95AB /* SATSizeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATSizeCell.xib; sourceTree = "<group>"; };
+		9606CBBA24EA90BC007B95AB /* SATSizeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATSizeCollectionCell.swift; sourceTree = "<group>"; };
+		9606CBBB24EA90BC007B95AB /* SATSizeCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATSizeCollectionCell.xib; sourceTree = "<group>"; };
+		9606CBBE24EA9CD0007B95AB /* SATPriceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATPriceCell.swift; sourceTree = "<group>"; };
+		9606CBBF24EA9CD0007B95AB /* SATPriceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATPriceCell.xib; sourceTree = "<group>"; };
+		9606CBC224EAA5F9007B95AB /* SATVariantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATVariantViewModel.swift; sourceTree = "<group>"; };
+		9617253824EAB65C004E2E2A /* UserDefaults+Heady.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Heady.swift"; sourceTree = "<group>"; };
+		9617253E24EAD0AF004E2E2A /* SATTaxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATTaxViewModel.swift; sourceTree = "<group>"; };
+		9617254324EAE902004E2E2A /* SATCartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATCartCell.swift; sourceTree = "<group>"; };
+		9617254424EAE902004E2E2A /* SATCartCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATCartCell.xib; sourceTree = "<group>"; };
+		9617254724EAEECB004E2E2A /* SATMyCart+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATMyCart+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		9617254824EAEECB004E2E2A /* SATMyCart+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATMyCart+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		9617254B24EAF089004E2E2A /* SATCoreDataManager+Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATCoreDataManager+Basic.swift"; sourceTree = "<group>"; };
+		9617254E24EAF3EC004E2E2A /* SATMyCartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATMyCartViewModel.swift; sourceTree = "<group>"; };
+		9617255024EB0485004E2E2A /* SATCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATCart.swift; sourceTree = "<group>"; };
+		9617255124EB0485004E2E2A /* SATCart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATCart.xib; sourceTree = "<group>"; };
+		9653044924E7A3FA0064BD1B /* SATeCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SATeCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9653044C24E7A3FA0064BD1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9653045624E7A3FA0064BD1B /* SATeCommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SATeCommerce.xcdatamodel; sourceTree = "<group>"; };
+		9653045824E7A3FC0064BD1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9653045B24E7A3FC0064BD1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9653045D24E7A3FC0064BD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9653046224E7A3FC0064BD1B /* SATeCommerceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SATeCommerceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9653046624E7A3FC0064BD1B /* SATeCommerceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATeCommerceTests.swift; sourceTree = "<group>"; };
+		9653046824E7A3FC0064BD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9653046D24E7A3FC0064BD1B /* SATeCommerceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SATeCommerceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9653047124E7A3FC0064BD1B /* SATeCommerceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATeCommerceUITests.swift; sourceTree = "<group>"; };
+		9653047324E7A3FC0064BD1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9653048624E7A5790064BD1B /* UIViewController+NavigationBarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationBarExtension.swift"; sourceTree = "<group>"; };
+		9653048724E7A5790064BD1B /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		9653048824E7A5790064BD1B /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		9653048924E7A5790064BD1B /* UIView+Transform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Transform.swift"; sourceTree = "<group>"; };
+		9653049724E7A67A0064BD1B /* SATDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATDashboard.swift; sourceTree = "<group>"; };
+		9653049C24E7A7F00064BD1B /* SSKTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSKTabBar.swift; sourceTree = "<group>"; };
+		9653049E24E7A8410064BD1B /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		965304A124E7AA2D0064BD1B /* SATDashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SATDashboard.storyboard; sourceTree = "<group>"; };
+		965304A424E7B4210064BD1B /* SATShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATShop.swift; sourceTree = "<group>"; };
+		965304A524E7B4210064BD1B /* SATShop.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATShop.xib; sourceTree = "<group>"; };
+		965304B024E7B4680064BD1B /* SATSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATSettings.swift; sourceTree = "<group>"; };
+		965304B124E7B4680064BD1B /* SATSettings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATSettings.xib; sourceTree = "<group>"; };
+		965304B424E7B47F0064BD1B /* SATNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATNotifications.swift; sourceTree = "<group>"; };
+		965304B524E7B47F0064BD1B /* SATNotifications.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATNotifications.xib; sourceTree = "<group>"; };
+		965304B824E7B54D0064BD1B /* SATWishlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATWishlist.swift; sourceTree = "<group>"; };
+		965304B924E7B54D0064BD1B /* SATWishlist.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATWishlist.xib; sourceTree = "<group>"; };
+		965304BD24E7BE320064BD1B /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		965304C724E7CC130064BD1B /* SSKSideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSKSideMenuController.swift; sourceTree = "<group>"; };
+		965304C824E7CC130064BD1B /* SSKSideMenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSKSideMenuController.xib; sourceTree = "<group>"; };
+		965304CC24E7EF870064BD1B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		965304CE24E7F1010064BD1B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		965304D024E7F1F70064BD1B /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+		965304D224E7F4D70064BD1B /* Tax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tax.swift; sourceTree = "<group>"; };
+		965304D424E7FEF30064BD1B /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		965304D624E7FFB70064BD1B /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
+		965304D824E800240064BD1B /* ProductRanking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRanking.swift; sourceTree = "<group>"; };
+		965304FC24E8525A0064BD1B /* SATCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATCoreDataManager.swift; sourceTree = "<group>"; };
+		965304FE24E853D80064BD1B /* SATVariant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATVariant+CoreDataClass.swift"; sourceTree = "<group>"; };
+		965304FF24E853D80064BD1B /* SATVariant+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATVariant+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9653050024E853D80064BD1B /* SATProduct+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATProduct+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9653050124E853D80064BD1B /* SATProduct+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATProduct+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9653050224E853D80064BD1B /* SATTax+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATTax+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9653050324E853D80064BD1B /* SATTax+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATTax+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9653050424E853D80064BD1B /* SATCategory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATCategory+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9653050524E853D80064BD1B /* SATCategory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATCategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9653050E24E856480064BD1B /* SATCoreDataManager+UpsertOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATCoreDataManager+UpsertOperations.swift"; sourceTree = "<group>"; };
+		9653051024E859DE0064BD1B /* SATCoreDataConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATCoreDataConstant.swift; sourceTree = "<group>"; };
+		9653051224E8747C0064BD1B /* SATCoreDataManager+FetchOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SATCoreDataManager+FetchOperation.swift"; sourceTree = "<group>"; };
+		9653051424E87CC80064BD1B /* DateFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extension.swift"; sourceTree = "<group>"; };
+		9653058624E88CBA0064BD1B /* SSKSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSKSearchBar.swift; sourceTree = "<group>"; };
+		9653058824E88CCC0064BD1B /* SSKSearchBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SSKSearchBar.xib; sourceTree = "<group>"; };
+		9653058F24E899CE0064BD1B /* SATDataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATDataCollection.swift; sourceTree = "<group>"; };
+		9653059024E899CE0064BD1B /* SATDataCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATDataCollection.xib; sourceTree = "<group>"; };
+		9653059324E8A60C0064BD1B /* SATCategoryCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATCategoryCollection.swift; sourceTree = "<group>"; };
+		9653059524E8A6410064BD1B /* SATProductCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATProductCollection.swift; sourceTree = "<group>"; };
+		9653059824E8A7980064BD1B /* SATCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATCategoryCell.swift; sourceTree = "<group>"; };
+		9653059924E8A7980064BD1B /* SATCategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATCategoryCell.xib; sourceTree = "<group>"; };
+		9653059F24E8AF0C0064BD1B /* SATProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATProductCell.swift; sourceTree = "<group>"; };
+		965305A024E8AF0C0064BD1B /* SATProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATProductCell.xib; sourceTree = "<group>"; };
+		965305A524E8CE810064BD1B /* heady.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heady.json; sourceTree = "<group>"; };
+		965305A824E8EDA10064BD1B /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		965305AA24E93E3E0064BD1B /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		965305AC24E961100064BD1B /* SATProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATProductViewModel.swift; sourceTree = "<group>"; };
+		965305AE24E96D390064BD1B /* SATCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATCategoryViewModel.swift; sourceTree = "<group>"; };
+		965305B024E970DC0064BD1B /* SATTitleImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATTitleImageViewModel.swift; sourceTree = "<group>"; };
+		965305B324E987C50064BD1B /* Stakable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stakable.swift; sourceTree = "<group>"; };
+		9653064D24E9A67B0064BD1B /* SATProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATProductDetails.swift; sourceTree = "<group>"; };
+		9653064E24E9A67B0064BD1B /* SATProductDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATProductDetails.xib; sourceTree = "<group>"; };
+		9653065324E9A7850064BD1B /* SATVisualCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATVisualCell.swift; sourceTree = "<group>"; };
+		9653065424E9A7850064BD1B /* SATVisualCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATVisualCell.xib; sourceTree = "<group>"; };
+		9653065724E9A9A80064BD1B /* SATColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATColorCell.swift; sourceTree = "<group>"; };
+		9653065824E9A9A80064BD1B /* SATColorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATColorCell.xib; sourceTree = "<group>"; };
+		9653065C24E9AB8D0064BD1B /* SATColorCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATColorCollectionCell.swift; sourceTree = "<group>"; };
+		9653065D24E9AB8D0064BD1B /* SATColorCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATColorCollectionCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9653044624E7A3FA0064BD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9653045F24E7A3FC0064BD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9653046A24E7A3FC0064BD1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9617254024EAE811004E2E2A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				965304BC24E7BE050064BD1B /* SideMenu */,
+				9653048524E7A5790064BD1B /* Extension */,
+				9653058124E88BC30064BD1B /* SearchBar */,
+				9653049B24E7A7D80064BD1B /* TabBar */,
+				965305B224E987AB0064BD1B /* Stack */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9617254124EAE811004E2E2A /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				9617254324EAE902004E2E2A /* SATCartCell.swift */,
+				9617254424EAE902004E2E2A /* SATCartCell.xib */,
+				9617254D24EAF3D0004E2E2A /* CellModel */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		9617254224EAE879004E2E2A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				965305A724E8ED8D0064BD1B /* Network */,
+				965304DA24E847A50064BD1B /* CoreData */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9617254D24EAF3D0004E2E2A /* CellModel */ = {
+			isa = PBXGroup;
+			children = (
+				9617254E24EAF3EC004E2E2A /* SATMyCartViewModel.swift */,
+			);
+			path = CellModel;
+			sourceTree = "<group>";
+		};
+		9653044024E7A3FA0064BD1B = {
+			isa = PBXGroup;
+			children = (
+				9653044B24E7A3FA0064BD1B /* SATeCommerce */,
+				9653046524E7A3FC0064BD1B /* SATeCommerceTests */,
+				9653047024E7A3FC0064BD1B /* SATeCommerceUITests */,
+				9653044A24E7A3FA0064BD1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9653044A24E7A3FA0064BD1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9653044924E7A3FA0064BD1B /* SATeCommerce.app */,
+				9653046224E7A3FC0064BD1B /* SATeCommerceTests.xctest */,
+				9653046D24E7A3FC0064BD1B /* SATeCommerceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9653044B24E7A3FA0064BD1B /* SATeCommerce */ = {
+			isa = PBXGroup;
+			children = (
+				9653044C24E7A3FA0064BD1B /* AppDelegate.swift */,
+				965305A524E8CE810064BD1B /* heady.json */,
+				9617254224EAE879004E2E2A /* Manager */,
+				9617254024EAE811004E2E2A /* Utilities */,
+				9617254124EAE811004E2E2A /* Cart */,
+				9653064824E9A5280064BD1B /* ProductDetails */,
+				9653058A24E8997F0064BD1B /* Collection */,
+				9653047F24E7A5780064BD1B /* Tabs */,
+				9653045824E7A3FC0064BD1B /* Assets.xcassets */,
+				9653045A24E7A3FC0064BD1B /* LaunchScreen.storyboard */,
+				9653045D24E7A3FC0064BD1B /* Info.plist */,
+				9653045524E7A3FA0064BD1B /* SATeCommerce.xcdatamodeld */,
+			);
+			path = SATeCommerce;
+			sourceTree = "<group>";
+		};
+		9653046524E7A3FC0064BD1B /* SATeCommerceTests */ = {
+			isa = PBXGroup;
+			children = (
+				9653046624E7A3FC0064BD1B /* SATeCommerceTests.swift */,
+				9653046824E7A3FC0064BD1B /* Info.plist */,
+			);
+			path = SATeCommerceTests;
+			sourceTree = "<group>";
+		};
+		9653047024E7A3FC0064BD1B /* SATeCommerceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9653047124E7A3FC0064BD1B /* SATeCommerceUITests.swift */,
+				9653047324E7A3FC0064BD1B /* Info.plist */,
+			);
+			path = SATeCommerceUITests;
+			sourceTree = "<group>";
+		};
+		9653047F24E7A5780064BD1B /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				9653049724E7A67A0064BD1B /* SATDashboard.swift */,
+				965304A124E7AA2D0064BD1B /* SATDashboard.storyboard */,
+				965304A424E7B4210064BD1B /* SATShop.swift */,
+				965304A524E7B4210064BD1B /* SATShop.xib */,
+				9617255024EB0485004E2E2A /* SATCart.swift */,
+				9617255124EB0485004E2E2A /* SATCart.xib */,
+				965304B024E7B4680064BD1B /* SATSettings.swift */,
+				965304B124E7B4680064BD1B /* SATSettings.xib */,
+				965304B424E7B47F0064BD1B /* SATNotifications.swift */,
+				965304B524E7B47F0064BD1B /* SATNotifications.xib */,
+				965304B824E7B54D0064BD1B /* SATWishlist.swift */,
+				965304B924E7B54D0064BD1B /* SATWishlist.xib */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		9653048524E7A5790064BD1B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9653048624E7A5790064BD1B /* UIViewController+NavigationBarExtension.swift */,
+				9653048724E7A5790064BD1B /* UIColor+Extension.swift */,
+				9653048824E7A5790064BD1B /* UIImage+Extension.swift */,
+				9653048924E7A5790064BD1B /* UIView+Transform.swift */,
+				9653049E24E7A8410064BD1B /* CGFloat+Extension.swift */,
+				9653051424E87CC80064BD1B /* DateFormatter+Extension.swift */,
+				965305AA24E93E3E0064BD1B /* UIView+Animation.swift */,
+				9617253824EAB65C004E2E2A /* UserDefaults+Heady.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9653049B24E7A7D80064BD1B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9653049C24E7A7F00064BD1B /* SSKTabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		965304BC24E7BE050064BD1B /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				965304BD24E7BE320064BD1B /* SideMenu.swift */,
+				965304C724E7CC130064BD1B /* SSKSideMenuController.swift */,
+				965304C824E7CC130064BD1B /* SSKSideMenuController.xib */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		965304CB24E7EE1D0064BD1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				965304CC24E7EF870064BD1B /* Category.swift */,
+				965304CE24E7F1010064BD1B /* Product.swift */,
+				965304D024E7F1F70064BD1B /* Variant.swift */,
+				965304D224E7F4D70064BD1B /* Tax.swift */,
+				965304D424E7FEF30064BD1B /* Response.swift */,
+				965304D624E7FFB70064BD1B /* Ranking.swift */,
+				965304D824E800240064BD1B /* ProductRanking.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		965304DA24E847A50064BD1B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				965304EB24E848670064BD1B /* ManagedObjects */,
+				965304FC24E8525A0064BD1B /* SATCoreDataManager.swift */,
+				9617254B24EAF089004E2E2A /* SATCoreDataManager+Basic.swift */,
+				9653050E24E856480064BD1B /* SATCoreDataManager+UpsertOperations.swift */,
+				9653051224E8747C0064BD1B /* SATCoreDataManager+FetchOperation.swift */,
+				9653051024E859DE0064BD1B /* SATCoreDataConstant.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		965304EB24E848670064BD1B /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				9617254724EAEECB004E2E2A /* SATMyCart+CoreDataClass.swift */,
+				9617254824EAEECB004E2E2A /* SATMyCart+CoreDataProperties.swift */,
+				965304FE24E853D80064BD1B /* SATVariant+CoreDataClass.swift */,
+				965304FF24E853D80064BD1B /* SATVariant+CoreDataProperties.swift */,
+				9653050024E853D80064BD1B /* SATProduct+CoreDataClass.swift */,
+				9653050124E853D80064BD1B /* SATProduct+CoreDataProperties.swift */,
+				9653050224E853D80064BD1B /* SATTax+CoreDataClass.swift */,
+				9653050324E853D80064BD1B /* SATTax+CoreDataProperties.swift */,
+				9653050424E853D80064BD1B /* SATCategory+CoreDataClass.swift */,
+				9653050524E853D80064BD1B /* SATCategory+CoreDataProperties.swift */,
+			);
+			path = ManagedObjects;
+			sourceTree = "<group>";
+		};
+		9653058124E88BC30064BD1B /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				9653058624E88CBA0064BD1B /* SSKSearchBar.swift */,
+				9653058824E88CCC0064BD1B /* SSKSearchBar.xib */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		9653058A24E8997F0064BD1B /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				9653058F24E899CE0064BD1B /* SATDataCollection.swift */,
+				9653059024E899CE0064BD1B /* SATDataCollection.xib */,
+				9653059324E8A60C0064BD1B /* SATCategoryCollection.swift */,
+				9653059524E8A6410064BD1B /* SATProductCollection.swift */,
+				9653059C24E8ACB00064BD1B /* CellModel */,
+				9653059724E8A7670064BD1B /* Cell */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		9653059724E8A7670064BD1B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9653059824E8A7980064BD1B /* SATCategoryCell.swift */,
+				9653059924E8A7980064BD1B /* SATCategoryCell.xib */,
+				9653059F24E8AF0C0064BD1B /* SATProductCell.swift */,
+				965305A024E8AF0C0064BD1B /* SATProductCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9653059C24E8ACB00064BD1B /* CellModel */ = {
+			isa = PBXGroup;
+			children = (
+				965305B024E970DC0064BD1B /* SATTitleImageViewModel.swift */,
+				965305AC24E961100064BD1B /* SATProductViewModel.swift */,
+				965305AE24E96D390064BD1B /* SATCategoryViewModel.swift */,
+			);
+			path = CellModel;
+			sourceTree = "<group>";
+		};
+		965305A724E8ED8D0064BD1B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				965304CB24E7EE1D0064BD1B /* Model */,
+				965305A824E8EDA10064BD1B /* NetworkProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		965305B224E987AB0064BD1B /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				965305B324E987C50064BD1B /* Stakable.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		9653064824E9A5280064BD1B /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9653064D24E9A67B0064BD1B /* SATProductDetails.swift */,
+				9653064E24E9A67B0064BD1B /* SATProductDetails.xib */,
+				9653065124E9A7570064BD1B /* DetailsCell */,
+				9653065224E9A7570064BD1B /* DetailsCellViewModel */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		9653065124E9A7570064BD1B /* DetailsCell */ = {
+			isa = PBXGroup;
+			children = (
+				9653065324E9A7850064BD1B /* SATVisualCell.swift */,
+				9653065424E9A7850064BD1B /* SATVisualCell.xib */,
+				9653065724E9A9A80064BD1B /* SATColorCell.swift */,
+				9653065824E9A9A80064BD1B /* SATColorCell.xib */,
+				9606CBB624EA7F9E007B95AB /* SATSizeCell.swift */,
+				9606CBB724EA7F9E007B95AB /* SATSizeCell.xib */,
+				9606CBBE24EA9CD0007B95AB /* SATPriceCell.swift */,
+				9606CBBF24EA9CD0007B95AB /* SATPriceCell.xib */,
+				9653065B24E9AB5B0064BD1B /* CollectionCell */,
+			);
+			path = DetailsCell;
+			sourceTree = "<group>";
+		};
+		9653065224E9A7570064BD1B /* DetailsCellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9606CBC224EAA5F9007B95AB /* SATVariantViewModel.swift */,
+				9617253E24EAD0AF004E2E2A /* SATTaxViewModel.swift */,
+			);
+			path = DetailsCellViewModel;
+			sourceTree = "<group>";
+		};
+		9653065B24E9AB5B0064BD1B /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				9653065C24E9AB8D0064BD1B /* SATColorCollectionCell.swift */,
+				9653065D24E9AB8D0064BD1B /* SATColorCollectionCell.xib */,
+				9606CBBA24EA90BC007B95AB /* SATSizeCollectionCell.swift */,
+				9606CBBB24EA90BC007B95AB /* SATSizeCollectionCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9653044824E7A3FA0064BD1B /* SATeCommerce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9653047624E7A3FC0064BD1B /* Build configuration list for PBXNativeTarget "SATeCommerce" */;
+			buildPhases = (
+				9653044524E7A3FA0064BD1B /* Sources */,
+				9653044624E7A3FA0064BD1B /* Frameworks */,
+				9653044724E7A3FA0064BD1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SATeCommerce;
+			productName = SATeCommerce;
+			productReference = 9653044924E7A3FA0064BD1B /* SATeCommerce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9653046124E7A3FC0064BD1B /* SATeCommerceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9653047924E7A3FC0064BD1B /* Build configuration list for PBXNativeTarget "SATeCommerceTests" */;
+			buildPhases = (
+				9653045E24E7A3FC0064BD1B /* Sources */,
+				9653045F24E7A3FC0064BD1B /* Frameworks */,
+				9653046024E7A3FC0064BD1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9653046424E7A3FC0064BD1B /* PBXTargetDependency */,
+			);
+			name = SATeCommerceTests;
+			productName = SATeCommerceTests;
+			productReference = 9653046224E7A3FC0064BD1B /* SATeCommerceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9653046C24E7A3FC0064BD1B /* SATeCommerceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9653047C24E7A3FC0064BD1B /* Build configuration list for PBXNativeTarget "SATeCommerceUITests" */;
+			buildPhases = (
+				9653046924E7A3FC0064BD1B /* Sources */,
+				9653046A24E7A3FC0064BD1B /* Frameworks */,
+				9653046B24E7A3FC0064BD1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9653046F24E7A3FC0064BD1B /* PBXTargetDependency */,
+			);
+			name = SATeCommerceUITests;
+			productName = SATeCommerceUITests;
+			productReference = 9653046D24E7A3FC0064BD1B /* SATeCommerceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9653044124E7A3FA0064BD1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Sayak Khatua";
+				TargetAttributes = {
+					9653044824E7A3FA0064BD1B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					9653046124E7A3FC0064BD1B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9653044824E7A3FA0064BD1B;
+					};
+					9653046C24E7A3FC0064BD1B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 9653044824E7A3FA0064BD1B;
+					};
+				};
+			};
+			buildConfigurationList = 9653044424E7A3FA0064BD1B /* Build configuration list for PBXProject "SATeCommerce" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9653044024E7A3FA0064BD1B;
+			productRefGroup = 9653044A24E7A3FA0064BD1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9653044824E7A3FA0064BD1B /* SATeCommerce */,
+				9653046124E7A3FC0064BD1B /* SATeCommerceTests */,
+				9653046C24E7A3FC0064BD1B /* SATeCommerceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9653044724E7A3FA0064BD1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9606CBBD24EA90BC007B95AB /* SATSizeCollectionCell.xib in Resources */,
+				965305A224E8AF0C0064BD1B /* SATProductCell.xib in Resources */,
+				965304CA24E7CC130064BD1B /* SSKSideMenuController.xib in Resources */,
+				9606CBB924EA7F9E007B95AB /* SATSizeCell.xib in Resources */,
+				9653045C24E7A3FC0064BD1B /* LaunchScreen.storyboard in Resources */,
+				9617255324EB0485004E2E2A /* SATCart.xib in Resources */,
+				9653059B24E8A7980064BD1B /* SATCategoryCell.xib in Resources */,
+				9653065624E9A7850064BD1B /* SATVisualCell.xib in Resources */,
+				9653065A24E9A9A80064BD1B /* SATColorCell.xib in Resources */,
+				9653065024E9A67B0064BD1B /* SATProductDetails.xib in Resources */,
+				9653045924E7A3FC0064BD1B /* Assets.xcassets in Resources */,
+				965304B324E7B4680064BD1B /* SATSettings.xib in Resources */,
+				965304A724E7B4210064BD1B /* SATShop.xib in Resources */,
+				965304BB24E7B54D0064BD1B /* SATWishlist.xib in Resources */,
+				9653059224E899CE0064BD1B /* SATDataCollection.xib in Resources */,
+				965304A324E7AA2D0064BD1B /* SATDashboard.storyboard in Resources */,
+				9653058924E88CCC0064BD1B /* SSKSearchBar.xib in Resources */,
+				9617254624EAE902004E2E2A /* SATCartCell.xib in Resources */,
+				9653065F24E9AB8D0064BD1B /* SATColorCollectionCell.xib in Resources */,
+				965305A624E8CE820064BD1B /* heady.json in Resources */,
+				9606CBC124EA9CD0007B95AB /* SATPriceCell.xib in Resources */,
+				965304B724E7B47F0064BD1B /* SATNotifications.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9653046024E7A3FC0064BD1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9653046B24E7A3FC0064BD1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9653044524E7A3FA0064BD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965304CF24E7F1010064BD1B /* Product.swift in Sources */,
+				9653050924E853D80064BD1B /* SATProduct+CoreDataProperties.swift in Sources */,
+				9653050824E853D80064BD1B /* SATProduct+CoreDataClass.swift in Sources */,
+				9653050C24E853D80064BD1B /* SATCategory+CoreDataClass.swift in Sources */,
+				9653064F24E9A67B0064BD1B /* SATProductDetails.swift in Sources */,
+				9653049224E7A5790064BD1B /* UIView+Transform.swift in Sources */,
+				965304B624E7B47F0064BD1B /* SATNotifications.swift in Sources */,
+				9617253F24EAD0AF004E2E2A /* SATTaxViewModel.swift in Sources */,
+				9653051124E859DE0064BD1B /* SATCoreDataConstant.swift in Sources */,
+				965305A124E8AF0C0064BD1B /* SATProductCell.swift in Sources */,
+				9653050624E853D80064BD1B /* SATVariant+CoreDataClass.swift in Sources */,
+				965304BE24E7BE320064BD1B /* SideMenu.swift in Sources */,
+				9653065924E9A9A80064BD1B /* SATColorCell.swift in Sources */,
+				9653048F24E7A5790064BD1B /* UIViewController+NavigationBarExtension.swift in Sources */,
+				965304CD24E7EF870064BD1B /* Category.swift in Sources */,
+				9653059A24E8A7980064BD1B /* SATCategoryCell.swift in Sources */,
+				9606CBC024EA9CD0007B95AB /* SATPriceCell.swift in Sources */,
+				9653050F24E856480064BD1B /* SATCoreDataManager+UpsertOperations.swift in Sources */,
+				9653051524E87CC80064BD1B /* DateFormatter+Extension.swift in Sources */,
+				9617254C24EAF089004E2E2A /* SATCoreDataManager+Basic.swift in Sources */,
+				9606CBC324EAA5F9007B95AB /* SATVariantViewModel.swift in Sources */,
+				9653045724E7A3FA0064BD1B /* SATeCommerce.xcdatamodeld in Sources */,
+				9653044D24E7A3FA0064BD1B /* AppDelegate.swift in Sources */,
+				9653059424E8A60C0064BD1B /* SATCategoryCollection.swift in Sources */,
+				9617254A24EAEECB004E2E2A /* SATMyCart+CoreDataProperties.swift in Sources */,
+				9617255224EB0485004E2E2A /* SATCart.swift in Sources */,
+				9653049924E7A67A0064BD1B /* SATDashboard.swift in Sources */,
+				965304D924E800240064BD1B /* ProductRanking.swift in Sources */,
+				965304A624E7B4210064BD1B /* SATShop.swift in Sources */,
+				9653058724E88CBA0064BD1B /* SSKSearchBar.swift in Sources */,
+				9653050724E853D80064BD1B /* SATVariant+CoreDataProperties.swift in Sources */,
+				9653050A24E853D80064BD1B /* SATTax+CoreDataClass.swift in Sources */,
+				9653049124E7A5790064BD1B /* UIImage+Extension.swift in Sources */,
+				965305AF24E96D390064BD1B /* SATCategoryViewModel.swift in Sources */,
+				9653049024E7A5790064BD1B /* UIColor+Extension.swift in Sources */,
+				9653050D24E853D80064BD1B /* SATCategory+CoreDataProperties.swift in Sources */,
+				965304D124E7F1F70064BD1B /* Variant.swift in Sources */,
+				965305A924E8EDA10064BD1B /* NetworkProtocol.swift in Sources */,
+				965304D724E7FFB70064BD1B /* Ranking.swift in Sources */,
+				965305B124E970DC0064BD1B /* SATTitleImageViewModel.swift in Sources */,
+				9617254924EAEECB004E2E2A /* SATMyCart+CoreDataClass.swift in Sources */,
+				965304BA24E7B54D0064BD1B /* SATWishlist.swift in Sources */,
+				9653049D24E7A7F00064BD1B /* SSKTabBar.swift in Sources */,
+				9653050B24E853D80064BD1B /* SATTax+CoreDataProperties.swift in Sources */,
+				9653049F24E7A8410064BD1B /* CGFloat+Extension.swift in Sources */,
+				9617253924EAB65C004E2E2A /* UserDefaults+Heady.swift in Sources */,
+				965305AB24E93E3E0064BD1B /* UIView+Animation.swift in Sources */,
+				9653065E24E9AB8D0064BD1B /* SATColorCollectionCell.swift in Sources */,
+				9653051324E8747C0064BD1B /* SATCoreDataManager+FetchOperation.swift in Sources */,
+				965304FD24E8525A0064BD1B /* SATCoreDataManager.swift in Sources */,
+				965305AD24E961100064BD1B /* SATProductViewModel.swift in Sources */,
+				965304D524E7FEF30064BD1B /* Response.swift in Sources */,
+				965304D324E7F4D70064BD1B /* Tax.swift in Sources */,
+				9606CBBC24EA90BC007B95AB /* SATSizeCollectionCell.swift in Sources */,
+				9617254F24EAF3EC004E2E2A /* SATMyCartViewModel.swift in Sources */,
+				965305B424E987C50064BD1B /* Stakable.swift in Sources */,
+				9617254524EAE902004E2E2A /* SATCartCell.swift in Sources */,
+				9653059124E899CE0064BD1B /* SATDataCollection.swift in Sources */,
+				965304C924E7CC130064BD1B /* SSKSideMenuController.swift in Sources */,
+				9653059624E8A6410064BD1B /* SATProductCollection.swift in Sources */,
+				9653065524E9A7850064BD1B /* SATVisualCell.swift in Sources */,
+				965304B224E7B4680064BD1B /* SATSettings.swift in Sources */,
+				9606CBB824EA7F9E007B95AB /* SATSizeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9653045E24E7A3FC0064BD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9653046724E7A3FC0064BD1B /* SATeCommerceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9653046924E7A3FC0064BD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9653047224E7A3FC0064BD1B /* SATeCommerceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9653046424E7A3FC0064BD1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9653044824E7A3FA0064BD1B /* SATeCommerce */;
+			targetProxy = 9653046324E7A3FC0064BD1B /* PBXContainerItemProxy */;
+		};
+		9653046F24E7A3FC0064BD1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9653044824E7A3FA0064BD1B /* SATeCommerce */;
+			targetProxy = 9653046E24E7A3FC0064BD1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9653045A24E7A3FC0064BD1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9653045B24E7A3FC0064BD1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9653047424E7A3FC0064BD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9653047524E7A3FC0064BD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9653047724E7A3FC0064BD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SATeCommerce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SATeCommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9653047824E7A3FC0064BD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SATeCommerce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SATeCommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9653047A24E7A3FC0064BD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SATeCommerceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SATeCommerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SATeCommerce.app/SATeCommerce";
+			};
+			name = Debug;
+		};
+		9653047B24E7A3FC0064BD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SATeCommerceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SATeCommerceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SATeCommerce.app/SATeCommerce";
+			};
+			name = Release;
+		};
+		9653047D24E7A3FC0064BD1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SATeCommerceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SATeCommerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SATeCommerce;
+			};
+			name = Debug;
+		};
+		9653047E24E7A3FC0064BD1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SATeCommerceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SATeCommerceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SATeCommerce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9653044424E7A3FA0064BD1B /* Build configuration list for PBXProject "SATeCommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653047424E7A3FC0064BD1B /* Debug */,
+				9653047524E7A3FC0064BD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9653047624E7A3FC0064BD1B /* Build configuration list for PBXNativeTarget "SATeCommerce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653047724E7A3FC0064BD1B /* Debug */,
+				9653047824E7A3FC0064BD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9653047924E7A3FC0064BD1B /* Build configuration list for PBXNativeTarget "SATeCommerceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653047A24E7A3FC0064BD1B /* Debug */,
+				9653047B24E7A3FC0064BD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9653047C24E7A3FC0064BD1B /* Build configuration list for PBXNativeTarget "SATeCommerceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9653047D24E7A3FC0064BD1B /* Debug */,
+				9653047E24E7A3FC0064BD1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9653045524E7A3FA0064BD1B /* SATeCommerce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9653045624E7A3FA0064BD1B /* SATeCommerce.xcdatamodel */,
+			);
+			currentVersion = 9653045624E7A3FA0064BD1B /* SATeCommerce.xcdatamodel */;
+			path = SATeCommerce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9653044124E7A3FA0064BD1B /* Project object */;
+}
