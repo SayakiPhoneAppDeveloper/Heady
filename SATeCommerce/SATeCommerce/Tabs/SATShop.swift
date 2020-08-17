@@ -101,6 +101,7 @@ class SATShop: UIViewController, SideMenu, APIConnection, SSKNavigation {
         // Do any additional setup after loading the view.
         setupNavigationBar()
         setupSearchBar()
+        self.fetchDataFromDatabase(searchKey: nil)
         readFromServer(shouldResetPage: true)
     }
 }

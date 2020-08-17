@@ -131,7 +131,7 @@
 		9617254E24EAF3EC004E2E2A /* SATMyCartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATMyCartViewModel.swift; sourceTree = "<group>"; };
 		9617255024EB0485004E2E2A /* SATCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATCart.swift; sourceTree = "<group>"; };
 		9617255124EB0485004E2E2A /* SATCart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SATCart.xib; sourceTree = "<group>"; };
-		9653044924E7A3FA0064BD1B /* SATeCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SATeCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9653044924E7A3FA0064BD1B /* Heady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9653044C24E7A3FA0064BD1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9653045624E7A3FA0064BD1B /* SATeCommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SATeCommerce.xcdatamodel; sourceTree = "<group>"; };
 		9653045824E7A3FC0064BD1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -286,7 +286,7 @@
 		9653044A24E7A3FA0064BD1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9653044924E7A3FA0064BD1B /* SATeCommerce.app */,
+				9653044924E7A3FA0064BD1B /* Heady.app */,
 				9653046224E7A3FC0064BD1B /* SATeCommerceTests.xctest */,
 				9653046D24E7A3FC0064BD1B /* SATeCommerceUITests.xctest */,
 			);
@@ -550,7 +550,7 @@
 			);
 			name = SATeCommerce;
 			productName = SATeCommerce;
-			productReference = 9653044924E7A3FA0064BD1B /* SATeCommerce.app */;
+			productReference = 9653044924E7A3FA0064BD1B /* Heady.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9653046124E7A3FC0064BD1B /* SATeCommerceTests */ = {
@@ -917,7 +917,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SATeCommerce;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Heady;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -934,7 +934,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk.SATeCommerce;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Heady;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
